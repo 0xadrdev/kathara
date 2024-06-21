@@ -5,4 +5,3 @@ ip a add 9.0.0.3/8 dev eth2
 ip route add 10.1.0.0/18 via 10.3.0.1 dev eth0
 ip route add 10.2.0.0/22 via 10.3.0.1 dev eth0
 ip route add 8.8.8.8/8 via 10.3.0.1 dev eth0
-

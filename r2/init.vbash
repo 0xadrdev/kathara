@@ -10,7 +10,9 @@ set interfaces ethernet eth2 address 10.10.10.2/24
 
 set protocols static route 0.0.0.0/0 next-hop 10.2.0.1
 
-
+set nat source rule 10 outbound-interface 'eth0'
+set nat source rule 10 source address '10.4.0.0/16'
+set nat source rule 10 translation address 'masquerade'
 
 commit 
 exit
