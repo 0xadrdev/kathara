@@ -1,0 +1,12 @@
+$ORIGIN org.
+@   3600 IN  SOA ns1.dnsroot.org.  ns2.dnsroot.org. (
+                2024061601 ; serial
+                7200       ; refresh (2 hours)
+                3600       ; retry (1 hour)
+                1209600    ; expire (2 weeks)
+                3600       ; minimum (1 hour)
+                )
+
+gik  IN  A   10.5.0.100
+gik  IN  A   10.5.0.101
+gik  IN  A   10.5.0.102

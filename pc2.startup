@@ -1,0 +1,4 @@
+ip a add 10.1.0.11/18 dev eth0 
+ip route add default via 10.1.0.1 dev eth0
+
+echo "nameserver 8.8.8.8" > /etc/resolv.conf 

@@ -1,0 +1,9 @@
+
+providers:
+  file:
+    filename: ./dynamic_conf.yml
+
+## Static configuration
+entryPoints:
+  web:
+   address: ":80"

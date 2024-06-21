@@ -1,0 +1,11 @@
+@                      3600 IN SOA   ns1.dnsroot.de. ns2.dnsroot.de. (
+                              2016072701                 ; serial number
+                              3600                       ; refresh period
+                              600                        ; retry period
+                              604800                     ; expire time
+                              1800                     ) ; minimum ttl
+                  3600  IN NS    ns1.dnsroot.de.
+                  3600  IN NS    ns2.dnsroot.de.
+
+ns1.dnsroot.de      A  8.8.8.8
+ns2.dnsroot.de      A  8.8.8.8

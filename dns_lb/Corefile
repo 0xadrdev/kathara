@@ -1,0 +1,11 @@
+org {
+    file db.gik.org
+    log
+    errors
+    cache
+}
+
+de {
+  forward . 8.8.8.8
+  log
+}

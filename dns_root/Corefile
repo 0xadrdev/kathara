@@ -1,0 +1,18 @@
+. {
+    file db.root
+    log
+    errors
+    cache
+}
+
+de {
+    file db.gik.de
+    log
+    errors
+    cache
+}
+
+org {
+  forward . 9.9.9.9
+  log
+}

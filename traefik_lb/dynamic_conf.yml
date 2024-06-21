@@ -1,0 +1,15 @@
+http:
+  routers:
+    Router-1:
+      # By default, routers listen to every EntryPoints.
+      rule: "Host(`gik.de`)"
+      service: "my-service"
+  services:
+    my-service:
+      loadBalancer:
+        servers:
+        - url: "http://10.4.0.100"
+        - url: "http://10.4.0.101"
+        - url: "http://10.4.0.102"
+
+
